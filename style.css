@@ -1,0 +1,39 @@
+/* Variáveis */
+:root {
+    --text-color: #06252c;
+    --background-color: #cbdbb9;
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
